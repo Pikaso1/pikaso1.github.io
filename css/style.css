@@ -7,7 +7,7 @@ body {
 .container {
 	width: 100%;
 	margin: 0 auto;
-	margin-top: -73px;
+	margin-top: -74px;
 	position: fixed;
 	z-index: 1;
 	background: #fdfdfd;
@@ -311,7 +311,7 @@ textarea {
 		}
 		.main_description {
 			width: 100%;
-		}	
+		}
 		.photo {
 			left: 7%;
 			top: 30px;
