@@ -1,58 +1,62 @@
-<!DOCTYPE html>
-<html>
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta charset="utf-8">
 	<title>By daylight - contacts</title>
-
 </head>
 <body>
- <header>
-	
-	<div class = "container">	
-	<div class = "logo"><a href="index.html">B</a></div>
-	  <nav>
-		<ul>
-			<li><a href="index.html">About</a></li>
-			<li><a href="porfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
-			<li><a href="" class = "menu">&#9776</a></li>
-		</ul>
-	  </nav>
-    
-    </div>
-</header>
-
-<main>
-
+	-
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<header>
+		<div class="container">
+			<div class="logo">
+				<a href="index.html">B</a>
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">About</a>
+					</li>
+					<li>
+						<a href="porfolio.html">Portfolio</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+					<li>
+						<a class="menu" href="">&#9776</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
 		<div class="form-container">
 			<div class="note"></div>
 			<div class="fields">
-				<form class="ajax-contact-form" action="">
-					<div><input type="text" name="name" value="" placeholder="Name"></div>
-						<div><input type="tel" name="tel" value="" placeholder="Phone"></div>
-						<div><input type="email" name="email" value="" placeholder="E-mail"></div>
-					<textarea name="message" cols="40" rows="3" placeholder="Tell us about your project"></textarea><br>
-					<input type="submit" name="submit" class="form-container__btn" value="Submit">
+				<form action="" class="ajax-contact-form">
+					<div>
+						<input name="name" placeholder="Name" type="text" value="">
+					</div>
+					<div>
+						<input name="tel" placeholder="Phone" type="tel" value="">
+					</div>
+					<div>
+						<input name="email" placeholder="E-mail" type="email" value="">
+					</div>
+					<textarea cols="40" name="message" placeholder="Tell us about your project" rows="3"></textarea><br>
+					<input class="form-container__btn" name="submit" type="submit" value="Submit">
 				</form>
 			</div>
 		</div>
-
-</main>
-
-<footer>
-    <div class="social">
-        <img src="img/facebook.svg">
-        <img src="img/instagram.svg">
-        <img src="img/twitter.svg">
-        <img src="img/vk.svg">
-    </div>
-</footer>
-
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<script src="js/form.js"></script>
-<script src="js/main.js"></script>
+	</main>
+	<footer>
+		<div class="social"><img src="img/facebook.svg"> <img src="img/instagram.svg"> <img src="img/twitter.svg"> <img src="img/vk.svg"></div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.4.1.js">
+	</script> 
+	<script src="js/form.js">
+	</script> 
+	<script src="js/main.js">
+	</script>
 </body>
-
 </html>
